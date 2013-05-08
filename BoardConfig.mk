@@ -5,6 +5,8 @@
 
 LOCAL_PATH := device/motorola/xt926
 
+# Kernel/Module Build
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
 
 # Use common resources
 TARGET_USES_MOTOROLA_MSM8960_COMMON_LIBLIGHT := true
